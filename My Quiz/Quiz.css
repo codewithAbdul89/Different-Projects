@@ -1,0 +1,99 @@
+  * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+
+body {
+    background-color: #001e4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    width: 30vw;
+    /* width: 90%; */
+    transition: background 0.5 ease;
+    min-height: 35vh;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.container hr {
+    margin-top: 10px;
+}
+
+.h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    height: 30px;
+}
+
+
+.divnextbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.nextbtn {
+
+    background-color: #001e4d;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 5px 15px;
+    display: none;
+    border-radius: 10px;
+}
+
+.nextbtn:hover {
+    background-color: aquamarine;
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.wrong {
+    background: #ff9393;
+}
+
+#resulter {
+    font-size: 20px;
+}
+
+@media(max-width:600px) {
+    .container {
+        width: 95%;
+        min-height: 50vh;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 8px;
+
+    }
+
+    .nextbtn {
+        font-size: 18px;
+    }
+}
