@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" placeholder="0">
+
+        <div class="btns">
+            <button id="ac" class="greencolor" onclick="clearer()">AC</button>
+            <button class="greencolor" onclick="deleter()">DE</button>
+            <button class="greencolor" onclick="viewer('%')">%</button>
+            <button class="greencolor" onclick="viewer('/')">/</button>
+            <button onclick="viewer('7')">7</button>
+            <button onclick="viewer('8')">8</button>
+            <button onclick="viewer('9')">9</button>
+            <button class="greencolor fn" onclick="viewer('*')">*</button>
+            <button onclick="viewer('4')">4</button>
+            <button onclick="viewer('5')">5</button>
+            <button onclick="viewer('6')">6</button>
+            <button class="greencolor fn" onclick="viewer('-')">-</button>
+            <button onclick="viewer('1')">1</button>
+            <button onclick="viewer('2')">2</button>
+            <button onclick="viewer('3')">3</button>
+            <button class="greencolor fn" onclick="viewer('+')">+</button>
+            <button onclick="viewer('0')">0</button>
+            <button onclick="viewer('(')">(</button>
+            <button onclick="viewer(')')">)</button>
+            
+            <button class="yellowish" onclick="any()">=</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
